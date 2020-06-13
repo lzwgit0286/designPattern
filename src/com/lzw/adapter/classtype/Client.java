@@ -10,6 +10,6 @@ public class Client {
 
     public static void main(String[] args) {
         Target target1 = new Adapter1();
-        target1.doSomething();
+        target1.request();
     }
 }

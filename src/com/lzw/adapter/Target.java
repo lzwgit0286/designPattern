@@ -5,5 +5,5 @@ package com.lzw.adapter;
  * @Date 2020/6/13 16:58
  */
 public interface Target {
-    void doSomething();
+    void request();
 }

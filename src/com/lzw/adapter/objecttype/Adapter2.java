@@ -13,7 +13,7 @@ public class Adapter2 implements Target {
     }
 
     @Override
-    public void doSomething() {
+    public void request() {
         adaptee2.doSpecialThing2();
     }
 }

@@ -8,7 +8,7 @@ import com.lzw.adapter.Target;
  */
 public class Adapter1 extends Adaptee1 implements Target {
     @Override
-    public void doSomething() {
+    public void request() {
         super.doSpecialThings();
     }
 }
